@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #0000ff52;
+}
+label {
+  margin-bottom: 4px;
+}
+/* The scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar */
+}
+
+/* The track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* The draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #cccccc; /* Color of the thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* The thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b9b9; /* Color of the thumb on hover */
+}
+
+.cart {
+  overflow: auto; /* Enable scrolling for the cart */
+  height: 100vh; /* Set height to allow scrolling */
+}
