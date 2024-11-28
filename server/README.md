@@ -12,8 +12,8 @@ This is the server-side application for the TechNest E-Commerce website. It is b
    git clone https://github.com/AmineCoder30/techNest-ecommerce.git
    cd techNest-ecommerce/server
 Install dependencies:
-
-npm install
+ 
+    npm install
 Set up environment variables. Create a .env file in the server directory and add the following:
 
 
@@ -24,6 +24,6 @@ TOKEN_SECRET_KEY = "your secret key"
 
 Start the development server:
 
-npm run dev
-The server will run on http://localhost:5000.
+    npm run dev
+The server will run on http://localhost:8080.
 
